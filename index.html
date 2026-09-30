@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Shiyang Zhou — Ph.D. student at HIT Shenzhen, with joint doctoral training at SLAI. Research in video generation, world models, and world action models.">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="canonical" href="https://clausy9.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Shiyang Zhou | HIT Shenzhen &amp; SLAI">
+  <meta property="og:description" content="Video generation, world models, and world action models. Ph.D. student at HIT Shenzhen, jointly trained at SLAI.">
+  <meta property="og:url" content="https://clausy9.github.io/">
+  <meta property="og:image" content="https://clausy9.github.io/assets/images/portrait.webp">
+  <title>Shiyang Zhou | HIT Shenzhen &amp; SLAI</title>
+  <link rel="preload" href="assets/fonts/Manrope.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#about">Skip to content</a>
+  <div class="wrapper" id="top">
+    <header class="profile">
+      <div class="portrait"><img src="assets/images/portrait.webp" alt="Shiyang Zhou by the river at night" fetchpriority="high"></div>
+      <div class="identity">
+        <h1>Shiyang Zhou</h1>
+        <p class="chinese-name" lang="zh">周诗洋</p>
+        <p class="position">Ph.D. Student</p>
+        <p class="affiliations"><a href="https://en.hitsz.edu.cn/">HIT Shenzhen</a><br><a href="https://www.slai.edu.cn/en">Shenzhen Loop Area Institute</a></p>
+        <a class="email" href="mailto:shiyangzhou@stu.hit.edu.cn">shiyangzhou@stu.hit.edu.cn</a>
+        <div class="social-links"><a href="https://github.com/Clausy9">GitHub <span aria-hidden="true">↗</span></a><a href="mailto:shiyangzhou@stu.hit.edu.cn">Email <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <nav aria-label="Page sections"><a href="#about">About</a><a href="#experience">Experience</a><a href="#research">Research</a><a href="#education">Education</a></nav>
+    </header>
+
+    <main>
+      <section class="about" id="about" aria-labelledby="about-title">
+        <h2 id="about-title">About me</h2>
+        <p>I am a Ph.D. student at <a href="https://en.hitsz.edu.cn/">Harbin Institute of Technology, Shenzhen</a>, with joint doctoral training at <a href="https://www.slai.edu.cn/en">Shenzhen Loop Area Institute (SLAI)</a>. I am advised by <a href="https://homepage.hit.edu.cn/sujingyong">Prof. Jingyong Su</a> and <a href="https://zhuotaotian.github.io/">Prof. Zhuotao Tian</a>.</p>
+        <p>My research interests are <strong>video generation, world models, and world action models</strong>. I focus on learning robot behavior from video and improving generalization to new tasks. Previously, I worked on efficient image restoration and interned with the Tencent Hunyuan team.</p>
+        <p class="opportunity"><strong>I am looking for research internship opportunities.</strong><br>Interested in working together? <a href="mailto:shiyangzhou@stu.hit.edu.cn">Get in touch.</a></p>
+      </section>
+
+      <section id="experience" aria-labelledby="experience-title">
+        <h2 id="experience-title">Experience</h2>
+        <div class="timeline">
+          <article class="timeline-item"><p class="date">Jan 2026 – present</p><div><h3>JD · JOY Future Academy</h3><p>World action models and visual generation.</p></div></article>
+          <article class="timeline-item"><p class="date">Apr – Sep 2025</p><div><h3>Tencent · Hunyuan</h3><p class="role">Research Intern · TEG</p><p>Data curation and automated pipelines for text-to-image generation and identity-consistent image editing.</p></div></article>
+          <article class="timeline-item"><p class="date">Oct 2024 – Apr 2025</p><div><h3>OPPO</h3><p class="role">Research Project</p><p>Efficient multi-frame RAW image restoration with Mamba, including joint denoising and demosaicing.</p></div></article>
+        </div>
+      </section>
+
+      <section class="research" id="research" aria-labelledby="research-title">
+        <h2 id="research-title">Selected publications</h2>
+        <ol class="bibliography">
+          <li class="publication" id="evo-wam">
+            <a class="teaser" href="https://evo-wam.github.io/" aria-label="EVO-WAM project page"><img src="assets/images/evo-wam.png" alt="EVO-WAM overview: simulation and real-world robot tasks" width="1280" height="720"></a>
+            <div class="pub-content">
+              <p class="venue">Preprint <span>2026</span></p>
+              <h3><a href="https://arxiv.org/abs/2609.38057">EVO-WAM: Evolving World Action Models through Video-Action Verification</a></h3>
+              <details class="authors"><summary><strong>Shiyang Zhou*</strong>, Xionghao Wu*, Wenbo Li, et al.</summary><p><strong>Shiyang Zhou*</strong>, Xionghao Wu*, Wenbo Li, Shenghe Zheng, Jiyao Zhang, Songsong Yu, Yijun Yang, Jianhui Liu, Haoze Sun, Senqiao Yang, Li Jiang, Jingyong Su, Haoyang Huang, Zhuotao Tian.</p></details>
+              <p class="equal-note">* Equal contribution</p>
+              <p class="pub-description">Improving generalization to new tasks through verified imagination, without additional expert demonstrations.</p>
+              <div class="pub-links"><a href="https://arxiv.org/pdf/2609.38057">Paper</a><a href="https://evo-wam.github.io/">Project</a><a href="https://github.com/Clausy9/EVO-WAM">GitHub</a><button type="button" id="open-demo">Demo <span aria-hidden="true">▶</span></button></div>
+            </div>
+          </li>
+          <li class="publication" id="zimablue">
+            <a class="teaser" href="https://zimablue-wam.github.io/" aria-label="ZimaBlue project page"><img src="assets/images/zimablue.png" alt="ZimaBlue results: scaling video data improves success and the dual system accelerates control" loading="lazy" width="1759" height="595"></a>
+            <div class="pub-content">
+              <p class="venue">Technical report <span>2026 · Core author</span></p>
+              <h3><a href="https://arxiv.org/abs/2609.00188">ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training</a></h3>
+              <details class="authors"><summary>Xionghao Wu, Yijun Yang, <strong>Shiyang Zhou</strong>, et al.</summary><p>Xionghao Wu, Yijun Yang, <strong>Shiyang Zhou</strong>, Haoze Sun, Jianhui Liu, Songsong Yu, Jiyao Zhang, Wenbo Li, Bo Wang, Guoqing Ma, Lin Song, Renjie Liao, Shenghe Zheng, Wei Tang, Xiaojuan Qi, Yanwei Li, Yuan Zhang, Zhuotao Tian, Haoyang Huang, Nan Duan.</p></details>
+              <p class="pub-description">Scaling embodied video pre-training for generalizable robot control.</p>
+              <div class="pub-links"><a href="https://arxiv.org/pdf/2609.00188">Paper</a><a href="https://zimablue-wam.github.io/">Project</a><a href="https://github.com/ZimaBlue-WAM/ZimaBlue">GitHub</a></div>
+            </div>
+          </li>
+          <li class="publication" id="tsanet">
+            <a class="teaser" href="https://arxiv.org/abs/2508.06058" aria-label="Read the TSANet paper"><img src="assets/images/tsanet.png" alt="TSANet architecture with Quad-to-Quad and Quad-to-RGB stages" loading="lazy" width="1010" height="482"></a>
+            <div class="pub-content">
+              <p class="venue">IEEE TMM <span>2026</span></p>
+              <h3><a href="https://arxiv.org/abs/2508.06058">Lightweight Quad Bayer HybridEVS Demosaicing via State Space Augmented Cross-Attention</a></h3>
+              <details class="authors"><summary><strong>Shiyang Zhou</strong>, Haijin Zeng, Yunfan Lu, et al.</summary><p><strong>Shiyang Zhou</strong>, Haijin Zeng, Yunfan Lu, Yongyong Chen, Jie Liu, Jingyong Su.</p></details>
+              <p class="pub-description">Efficient HybridEVS demosaicing with state space augmented cross-attention.</p>
+              <div class="pub-links"><a href="https://arxiv.org/pdf/2508.06058">Paper</a></div>
+            </div>
+          </li>
+          <li class="publication" id="bmtnet">
+            <a class="teaser" href="https://github.com/Clausy9/BMTNet" aria-label="BMTNet repository"><img src="assets/images/bmtnet.png" alt="BMTNet architecture combining binarized Mamba and Transformer blocks" loading="lazy" width="968" height="512"></a>
+            <div class="pub-content">
+              <p class="venue">CVPR <span>2025</span></p>
+              <h3><a href="https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_Binarized_Mamba-Transformer_for_Lightweight_Quad_Bayer_HybridEVS_Demosaicing_CVPR_2025_paper.html">Binarized Mamba-Transformer for Lightweight Quad Bayer HybridEVS Demosaicing</a></h3>
+              <details class="authors"><summary><strong>Shiyang Zhou</strong>, Haijin Zeng, Yunfan Lu, et al.</summary><p><strong>Shiyang Zhou</strong>, Haijin Zeng, Yunfan Lu, Tong Shao, Ke Tang, Yongyong Chen, Jie Liu, Jingyong Su.</p></details>
+              <p class="pub-description">A binarized Mamba-Transformer for lightweight image reconstruction.</p>
+              <div class="pub-links"><a href="https://arxiv.org/pdf/2503.16134">Paper</a><a href="https://github.com/Clausy9/BMTNet">Code</a></div>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section id="contributions" aria-labelledby="contributions-title">
+        <h2 id="contributions-title">Project contributions</h2>
+        <article class="publication contribution">
+          <a class="teaser joy-teaser" href="https://github.com/jd-opensource/JoyAI-Image" aria-label="JoyAI-Image repository"><img src="assets/images/joyai-image.png" alt="Examples of multi-view generation and spatial image editing from JoyAI-Image" loading="lazy" width="937" height="1208"></a>
+          <div class="pub-content"><p class="venue">JoyAI-Image <span>Contributor</span></p><h3><a href="https://github.com/jd-opensource/JoyAI-Image">Unified image understanding, generation, and editing</a></h3><p class="pub-description">A multimodal foundation model with spatial understanding and instruction-guided image editing.</p><div class="pub-links"><a href="https://arxiv.org/abs/2605.04128">Report</a><a href="https://github.com/jd-opensource/JoyAI-Image">GitHub</a></div></div>
+        </article>
+      </section>
+
+
+
+
+
+      <section id="awards" aria-labelledby="awards-title"><h2 id="awards-title">Selected awards</h2><p class="award"><span class="award-year">2025</span><span><strong>Tat-Seng Chua Scholarship</strong><br>School of Computer Science and Technology, HIT Shenzhen</span></p><p class="award"><span class="award-year">2024</span><span><strong>3rd Place, CVPR MIPI Challenge</strong><br>Demosaic for HybridEVS Camera Track</span></p></section>
+      <section id="education" aria-labelledby="education-title">
+        <h2 id="education-title">Education</h2>
+        <div class="timeline">
+          <article class="timeline-item"><p class="date">2023 – present</p><div><h3>Harbin Institute of Technology, Shenzhen</h3><p>Ph.D. Student · Computer Science and Technology</p></div></article>
+          <article class="timeline-item"><p class="date">2025 – present</p><div><h3>Shenzhen Loop Area Institute</h3><p>Joint Ph.D. Training with HIT Shenzhen</p></div></article>
+          <article class="timeline-item"><p class="date">2019 – 2023</p><div><h3>Hebei University of Technology</h3><p>Bachelor’s Degree · Computer Science and Technology</p></div></article>
+        </div>
+      </section>
+
+      <footer><span>© 2026 Shiyang Zhou</span><a href="https://github.com/yaoyao-liu/minimal-light">Adapted from Minimal Light</a></footer>
+    </main>
+  </div>
+
+  <dialog id="demo-dialog" aria-labelledby="demo-title">
+    <div class="dialog-header"><h2 id="demo-title">EVO-WAM · Demo</h2><a class="demo-credits" href="assets/demo-credits/CREDITS.txt" target="_blank" rel="noopener">Credits</a><button class="close-dialog" type="button" aria-label="Close demo">Close ×</button></div>
+    <video controls playsinline preload="none" poster="assets/images/evo-wam.png"><source src="assets/videos/evo-wam.mp4" type="video/mp4"></video>
+  </dialog>
+  <script src="script.js"></script>
+</body>
+</html>
